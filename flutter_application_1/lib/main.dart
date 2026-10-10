@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/homeScreen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Myapp());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class Myapp extends StatefulWidget {
+  const new({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<Myapp> createState() => _MyappState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyappState extends State<Myapp> {
   int counter = 0;
 
   @override
@@ -19,56 +20,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.blue),
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Alta calidad')),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                '$counter',
-                style: TextStyle(fontSize: 160, fontWeight: FontWeight.w100),
-              ),
-              Text(
-                'click${counter == 1 ? '' : 's'}',
-                style: TextStyle(fontSize: 25),
-              ),
-            ],
-          ),
-        ),
-        floatingActionButton: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            FloatingActionButton(
-              child: Icon(Icons.plus_one),
-              onPressed: () {
-                setState(() {
-                  counter++;
-                });
-              },
-            ),
-            SizedBox(height: 20),
-            FloatingActionButton(
-              child: Icon(Icons.exposure_minus_1),
-              onPressed: () {
-                setState(() {
-                  if (counter == 0) return;
-                  counter--;
-                });
-              },
-            ),
-            SizedBox(height: 20),
-            FloatingActionButton(
-              child: Icon(Icons.refresh),
-              onPressed: () {
-                setState(() {
-                  counter = 0;
-                });
-              },
-            ),
-          ],
-        ),
-      ),
+      home: HomeScreen(),
     );
   }
 }
