@@ -24,8 +24,11 @@ Aplicación Flutter con autenticación y feed vertical de videos.
 
 ## Evidencias
 
-- [Evidencia 1 - 00:38](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-38-51.mp4)
-- [Evidencia 2 - 00:41](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-41-48.mp4)
-- [Evidencia 3 - 00:42](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-42-34.mp4)
-- [Evidencia 4 - 00:43](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-43-34.mp4)
+GitHub no permite reproducir MP4 directamente desde un README. Usa los enlaces
+siguientes para abrir el reproductor de cada grabación:
+
+- [Abrir evidencia 1](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-38-51.mp4)
+- [Abrir evidencia 2](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-41-48.mp4)
+- [Abrir evidencia 3](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-42-34.mp4)
+- [Abrir evidencia 4](docs/videos/Parcial%20-%20Opera%202026-11-24%2000-43-34.mp4)
 
